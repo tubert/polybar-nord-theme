@@ -36,13 +36,13 @@ override-redirect = false
 # show-desktop: Display desktop (i3 only)
 
 # Top modules
-top-left = i3 title
+top-left = i3
 top-center = mpd
 top-right = keyboard backlight alsa battery network-short date
 
 # Bottom modules
-bottom-left = info-hackspeed
-bottom-center = daily-poem
+bottom-left = 
+bottom-center = 
 bottom-right = temperature memory cpu
 
 systray-top = none
