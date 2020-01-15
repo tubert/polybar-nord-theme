@@ -45,8 +45,8 @@ bottom-left =
 bottom-center = 
 bottom-right = temperature memory cpu
 
-systray-top = none
-systray-bottom = left
+systray-top = right
+systray-bottom = none
 
 # global style
 line-size = 6
@@ -99,4 +99,4 @@ network-click-left = i3-msg workspace 2
 # on different bars
 #
 # Default: false
-i3-pin-workspaces = false
+i3-pin-workspaces = true
