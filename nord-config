@@ -38,7 +38,7 @@ override-redirect = false
 # Top modules
 top-left = i3
 top-center = mpd
-top-right = keyboard backlight alsa battery network-short date
+top-right = keyboard backlight alsa battery network-wired network-short date
 
 # Bottom modules
 bottom-left = 
@@ -56,7 +56,8 @@ line-size = 6
 # if some of them doesn't suit your environment, you can change
 # it from here.
 # network interface, check by `ip link show`
-interface = wlp5s0
+wifi-interface = wlp5s0
+wired-interface = enp4s0
 
 # when the current battery capacity excess this value,
 # the full-capacity format will be displayed.

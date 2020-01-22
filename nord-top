@@ -232,17 +232,25 @@ content-padding = 1
 
 click-left = ${config.notify-click-left}
 
+[module/network-wired]
+type = internal/network
+interface = ${config.wired-interface}
+
+interval = 1
+label-connected = 
+label-connected-foreground = ${colors.success}
+label-connected-underline = ${colors.success}
 [module/network-short]
 type = internal/network
-interface = ${config.interface}
+interface = ${config.wifi-interface}
 
 interval = 1
 
 format-connected = %{A1:networkmanager_dmenu:}<ramp-signal>%{A}
 format-disconnected = %{A1:networkmanager_dmenu:}<label-disconnected>%{A}
 
-label-disconnected = 
-label-disconnected-foreground = ${colors.urgent}
+#label-disconnected = WIFI DOWN
+#label-disconnected-foreground = ${colors.urgent}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
